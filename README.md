@@ -1,5 +1,5 @@
 <h1>HTML Etiketleri Kullanımı</h1>
 
 <h2>Başlık ve Biçimlendirme</h2>
-<p>Bu bölümde başlık ve biçimlendirme etiketleri kullanılmıştır.</p>
+<p><del>Bu bölümde başlık ve biçimlendirme etiketleri kullanılmıştır.</del></p>
 <p><ins>h1,h2,h3,h4,h5,h6;</ins><mark>Başlık vermek için kullanılır</mark></p>
