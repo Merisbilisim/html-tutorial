@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Uygulamasuı</title>
+</head>
+<body>
+    <h1>select ve fieldset</h1>
+    <form action="https://yazilimbilisim.net/ogrenciler/kontrol.php" method="post">
+        
+            <fieldset>
+                <legend>Kişisel Bilgiler</legend>
+    
+                <label for="isim">İsim:</label><br>
+                <input type="text" id="isim" name="isim" placeholder="ad"><br><br>
+    
+                <label for="soyad">Soyad:</label><br>
+                <input type="text" id="soyad" name="soyad" placeholder="soyad"><br><br>
+    
+                <label for="cinsiyet">Cinsiyet:</label><br>
+                <input type="radio" id="kiz" name="fav_language" value="kiz">
+                <label for="kiz">Kız</label>
+    
+                <input type="radio" id="erkek" name="fav_language" value="erkek">
+                <label for="erkek">Erkek</label><br><br>
+    
+                <label for="sehir">Yaşadığınız Şehir:</label><br>
+                <input type="text" id="sehir" name="sehir"><br><br>
+    
+                <label for="dtarih"> Doğum Tarihi:</label><br>
+                <input type="date" name="tarih" id="tarih"><br><br>
+    
+            </fieldset>
+            <fieldset>
+            <legend>Eğitim Bilgileri</legend>
+
+            <label for="okul">Okul:</label><br>
+            <input type="text" name="okul" id="okul"><br><br>
+
+
+            <label for="sinif">Sınıf:</label><br>
+            <input type="text" id="sinif" name="sinif"><br><br>
+
+
+            <label for="bolum">Bölümünüz:</label><br>
+            <select name="bolum" id="bolum">
+                <option value="1">Bilişim Teknolojileri</option>
+                <option value="2">Çocuk Gelişimi</option>
+                <option value="3">Moda Tasarım</option>
+                <option value="4">Grafik</option>
+            </select><br><br>
+
+            <button type="submit">Kaydet</button>
+        </fieldset>
+        <fieldset>
+            <legend>Ek Bilgiler</legend>
+            
+            <!--textarea etiketi çok satırlı veri girişi için kullanılır.-->
+            <!--textarea için cols tek satırda bulunan karakter sayısını rows ise satır sayısını belirtir.-->
+            <textarea name="bigi" id="bigi" rows="5" cols="30" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero nisi possimus, odio repellendus at et cumque iusto facilis reprehenderit explicabo. Nesciunt beatae consectetur eum, iure ipsa nemo suscipit consequatur molestias!</textarea><br><br>
+            <input type="checkbox" id="ch" name="ch">
+            <label for="ch">Yukarıdaki Bilgilerin Doğruluğunu Onaylıyorum</label>
+            <button type="submit">Gönder</button><br><br>
+            <button type="reset">Sıfırla</button>
+        </fieldset>
+        
+    </form>
+</body>
+</html>
