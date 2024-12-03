@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ödev</title>
+</head>
+<body>
+    <h1>Radio ve Checkbox</h1>
+    <form action="https://yazilimbilisim.net/ogrenciler/kontrol.php" method="post">
+        <fieldset>
+            <legend>Hangi Ürünlerde Kampanya İstersiniz..</legend>
+            
+            <label for="kamp1">Makyaj Malzemeleri</label>
+            <input type="radio" name="Kampanya" id="kamp1" value="Makyaj"><br><br>
+
+            <label for="kamp2">Cilt Bakım Ürünleri</label>
+            <input type="radio" name="Kampanya" id="kamp2" value="Cilt Bakım Ürünleri"><br><br> 
+
+            <label for="kamp3">Parfüm Ürünleri</label>
+            <input type="radio" name="Kampanya" id="kamp3" value="Parfüm Ürünleri"><br><br>
+        </fieldset>
+        <fieldset>
+            
+            <legend>Hangi Makyaj ürünlerini Talep Edersiniz</legend>
+
+            <input type="checkbox" name="urun[]" id="urun1" value="Allık">
+            <label for="urun1">Allık</label><br>
+
+            <input type="checkbox" name="urun[]" id="urun12" value="Far Paleti">
+            <label for="urun2">Far Paleti</label><br>
+
+            <input type="checkbox" name="urun[]" id="urun3" value="Kapatıcı">
+            <label for="urun1">Allık</label><br>
+        </fieldset>
+       
+    </form>
+
+</body>
+</html>
